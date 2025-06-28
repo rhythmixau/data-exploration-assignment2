@@ -2,9 +2,7 @@
 
 ## Data Documentation for Jaffle Shop
 
-`jaffle_shop` is a fictional ecommerce store.
-
-This [dbt](https://www.getdbt.com/) project is for testing out code.
+`data_exploration_assignment2` is Jack Toke's final project for Data Exploration (IFQ719).
 
 The source code can be found [here](https://github.com/clrcrl/jaffle_shop).
 

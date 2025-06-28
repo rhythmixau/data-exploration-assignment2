@@ -1,8 +1,8 @@
-jaffle_shop:
+data_exploration_assignment2:
 
   target: dev
   outputs:
     dev:
       type: duckdb
-      path: 'jaffle_shop.duckdb'
+      path: 'database.duckdb'
       threads: 24
