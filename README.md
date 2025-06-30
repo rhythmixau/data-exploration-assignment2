@@ -1,6 +1,7 @@
-# Testing dbt project: `jaffle_shop`
+# Data Exploration with dbt: `data_exploration_assignment2`
+### The documentation is in-progress
 
-`jaffle_shop` is a fictional ecommerce store. This dbt project transforms raw data from an app database into a customers and orders model ready for analytics.
+`data_exploration_assignment2` is a QUT final project for the Data Exploration (IFQ719) 
 
 <details>
 <summary>
@@ -10,47 +11,15 @@
 </summary>
 
 What this repo _is_:
-- A self-contained playground dbt project, useful for testing out scripts, and communicating some of the core dbt concepts.
-
-What this repo _is not_:
-- A tutorial — check out the [Getting Started Tutorial](https://docs.getdbt.com/tutorial/setting-up) for that. Notably, this repo contains some anti-patterns to make it self-contained, namely the use of seeds instead of sources.
-- A demonstration of best practices — check out the [dbt Learn Demo](https://github.com/dbt-labs/dbt-learn-demo) repo instead. We want to keep this project as simple as possible. As such, we chose not to implement:
-    - our standard file naming patterns (which make more sense on larger projects, rather than this five-model project)
-    - a pull request flow
-    - CI/CD integrations
-- A demonstration of using dbt for a high-complex project, or a demo of advanced features (e.g. macros, packages, hooks, operations) — we're just trying to keep things simple here!
+- A self-contained playground dbt project (with Streamlit) for exploring an AirBnb dataset.
 
 </details>
 
 <details>
 <summary>
 
-## What's in this repo?
-
-</summary>
-
-This repo contains [seeds](https://docs.getdbt.com/docs/building-a-dbt-project/seeds) that includes some (fake) raw data from a fictional app along with some basic dbt [models](https://docs.getdbt.com/docs/building-a-dbt-project/building-models), tests, and docs for this data.
-
-The raw data consists of customers, orders, and payments, with the following entity-relationship diagram:
-
-![Jaffle Shop ERD](/etc/jaffle_shop_erd.png)
-
-</details>
-
-## Why should I care about this repo?
-If you're just starting your cloud data warehouse journey and are hungry to get started with dbt before your organization officially gets a data warehouse, you should check out this repo.
-
-If you want to run 28 SQL operations with dbt in less than `1 second`, for free, and all on your local machine, you should check out this repo.
-![dbt_performance](images/dbt_performance.png)
-
-If you want an adrenaline rush from a process that used to take dbt newcomers `1 hour` and is now less than `1 minute`, you should check out this repo.
-
-![dbt_full_deploy_commands](images/dbt_full_deploy_commands.png)
-
-[Verified GitHub Action on dbt Performance](https://github.com/dbt-labs/jaffle_shop_duckdb/runs/7141529753?check_suite_focus=true#step:4:306)
-
 ## Running this project
-Prerequisities: Python >= 3.5
+Prerequisities: Python >= 3.9
 
 ### Mach Speed: No explanation needed
 
@@ -67,91 +36,6 @@ source venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 source venv/bin/activate
-dbt build
-dbt docs generate
-dbt docs serve
-```
-</details>
-
-<details>
-<summary>POSIX fish</summary>
-
-```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
-cd jaffle_shop_duckdb
-python3 -m venv venv
-source venv/bin/activate.fish
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-source venv/bin/activate.fish
-dbt build
-dbt docs generate
-dbt docs serve
-```
-</details>
-
-<details>
-<summary>POSIX csh/tcsh</summary>
-
-```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
-cd jaffle_shop_duckdb
-python3 -m venv venv
-source venv/bin/activate.csh
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-source venv/bin/activate.csh
-dbt build
-dbt docs generate
-dbt docs serve
-```
-</details>
-
-<details>
-<summary>POSIX PowerShell Core</summary>
-
-```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
-cd jaffle_shop_duckdb
-python3 -m venv venv
-venv/bin/Activate.ps1
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-venv/bin/Activate.ps1
-dbt build
-dbt docs generate
-dbt docs serve
-```
-</details>
-
-<details>
-<summary>Windows cmd.exe</summary>
-
-```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
-cd jaffle_shop_duckdb
-python -m venv venv
-venv\Scripts\activate.bat
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-venv\Scripts\activate.bat
-dbt build
-dbt docs generate
-dbt docs serve
-```
-</details>
-
-<details>
-<summary>Windows PowerShell</summary>
-
-```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
-cd jaffle_shop_duckdb
-python -m venv venv
-venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-venv\Scripts\Activate.ps1
 dbt build
 dbt docs generate
 dbt docs serve
@@ -208,7 +92,6 @@ There's some bells and whistles defined in the [.devcontainer.json]().devcontain
     - Property files (`models/whatever.yml`)
 
 
-
 </details>
 
 ### Step-by-step explanation
@@ -237,68 +120,6 @@ To get up and running with this project:
     source venv/bin/activate
     ```
     </details>
-
-    <details>
-    <summary>POSIX fish</summary>
-
-    ```shell
-    python3 -m venv venv
-    source venv/bin/activate.fish
-    python3 -m pip install --upgrade pip
-    python3 -m pip install -r requirements.txt
-    source venv/bin/activate.fish
-    ```
-    </details>
-
-    <details>
-    <summary>POSIX csh/tcsh</summary>
-
-    ```shell
-    python3 -m venv venv
-    source venv/bin/activate.csh
-    python3 -m pip install --upgrade pip
-    python3 -m pip install -r requirements.txt
-    source venv/bin/activate.csh
-    ```
-    </details>
-
-    <details>
-    <summary>POSIX PowerShell Core</summary>
-
-    ```shell
-    python3 -m venv venv
-    venv/bin/Activate.ps1
-    python3 -m pip install --upgrade pip
-    python3 -m pip install -r requirements.txt
-    venv/bin/Activate.ps1
-    ```
-    </details>
-
-    <details>
-    <summary>Windows cmd.exe</summary>
-
-    ```shell
-    python -m venv venv
-    venv\Scripts\activate.bat
-    python -m pip install --upgrade pip
-    python -m pip install -r requirements.txt
-    venv\Scripts\activate.bat
-    ```
-    </details>
-
-    <details>
-    <summary>Windows PowerShell</summary>
-
-    ```shell
-    python -m venv venv
-    venv\Scripts\Activate.ps1
-    python -m pip install --upgrade pip
-    python -m pip install -r requirements.txt
-    venv\Scripts\Activate.ps1
-    ```
-    </details>
-
-
   
     *Why a 2nd activation of the virtual environment?*
     <details>
