@@ -1,0 +1,100 @@
+version: 2
+
+models:
+  - name: cleansed_listings
+    columns:
+      - name: listing_id
+        tests:
+          - unique
+          - not_null
+      - name: listing_title
+        tests:
+          - not_null
+      - name: host_id
+        tests:
+          - not_null
+      - name: host_name
+        tests:
+          - not_null
+      - name: neighbourhood_group
+        tests:
+          - not_null
+      - name: neighbourhood
+        tests:
+          - not_null
+      - name: latitude
+        tests:
+          - not_null
+      - name: longitude
+        tests:
+          - not_null
+      - name: room_type
+        tests:
+          - not_null
+      - name: price
+        tests:
+          - not_null
+      - name: minimum_nights
+        tests:
+          - not_null
+      - name: number_of_reviews
+        tests:
+          - not_null
+      - name: last_review
+      - name: reviews_per_month
+      - name: calculated_host_listings_count
+        tests:
+          - not_null
+      - name: availability_365
+        tests:
+          - not_null
+  - name: bronze_listings
+    columns:
+      - name: listing_id
+        tests:
+          - unique
+          - not_null
+      - name: listing_title
+        tests:
+          - not_null
+      - name: host_id
+        tests:
+          - not_null
+      - name: host_name
+        tests:
+          - not_null
+      - name: neighbourhood_group
+        tests:
+          - not_null
+      - name: neighbourhood
+        tests:
+          - not_null
+      - name: latitude
+        tests:
+          - not_null
+      - name: longitude
+        tests:
+          - not_null
+      - name: room_type
+        tests:
+          - not_null
+      - name: price
+        tests:
+          - not_null
+      - name: minimum_nights
+        tests:
+          - not_null
+      - name: number_of_reviews
+        tests:
+          - not_null
+      - name: last_review
+      - name: reviews_per_month
+      - name: calculated_host_listings_count
+        tests:
+          - not_null
+      - name: availability_365
+        tests:
+          - not_null
+      - name: is_special_property
+        tests:
+          - not_null

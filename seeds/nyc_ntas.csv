@@ -1,0 +1,263 @@
+BoroCode,BoroName,CountyFIPS,NTA2020,NTAName,NTAAbbrev,NTAType,CDTA2020,CDTAName,Shape_Length,Shape_Area
+3,Brooklyn,47,BK0101,Greenpoint,Grnpt,0,BK01,BK01 Williamsburg-Greenpoint (CD 1 Equivalent),28919.5608108,35321809.1041
+3,Brooklyn,47,BK0102,Williamsburg,Wllmsbrg,0,BK01,BK01 Williamsburg-Greenpoint (CD 1 Equivalent),28134.0823238,28852852.7038
+3,Brooklyn,47,BK0103,South Williamsburg,SWllmsbrg,0,BK01,BK01 Williamsburg-Greenpoint (CD 1 Equivalent),18250.2805432,15208960.7339
+3,Brooklyn,47,BK0104,East Williamsburg,EWllmsbrg,0,BK01,BK01 Williamsburg-Greenpoint (CD 1 Equivalent),43184.7989883,52267407.9898
+3,Brooklyn,47,BK0201,Brooklyn Heights,BkHts,0,BK02,BK02 Downtown Brooklyn-Fort Greene (CD 2 Approximation),14312.5049745,9982321.59069
+3,Brooklyn,47,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,DwntwnBk,0,BK02,BK02 Downtown Brooklyn-Fort Greene (CD 2 Approximation),30598.6654257,23732977.7564
+3,Brooklyn,47,BK0203,Fort Greene,FtGrn,0,BK02,BK02 Downtown Brooklyn-Fort Greene (CD 2 Approximation),23284.6223898,17534133.6285
+3,Brooklyn,47,BK0204,Clinton Hill,ClntnHl,0,BK02,BK02 Downtown Brooklyn-Fort Greene (CD 2 Approximation),18102.9686076,14566584.9803
+3,Brooklyn,47,BK0261,Brooklyn Navy Yard,BkNvyYrd,6,BK02,BK02 Downtown Brooklyn-Fort Greene (CD 2 Approximation),39415.6436873,10106806.635
+3,Brooklyn,47,BK0301,Bedford-Stuyvesant (West),BdSty_W,0,BK03,BK03 Bedford-Stuyvesant (CD 3 Approximation),26307.6456376,36906698.6871
+3,Brooklyn,47,BK0302,Bedford-Stuyvesant (East),BdSty_E,0,BK03,BK03 Bedford-Stuyvesant (CD 3 Approximation),29753.971481,41289700.8947
+3,Brooklyn,47,BK0401,Bushwick (West),Bshwck_W,0,BK04,BK04 Bushwick (CD 4 Equivalent),23685.2328996,23134298.5847
+3,Brooklyn,47,BK0402,Bushwick (East),Bshwck_E,0,BK04,BK04 Bushwick (CD 4 Equivalent),27121.7759763,27932549.7883
+3,Brooklyn,47,BK0471,The Evergreens Cemetery,EvrgrnsCem,7,BK04,BK04 Bushwick (CD 4 Equivalent),10950.2090072,5585573.10822
+3,Brooklyn,47,BK0501,Cypress Hills,CyprssHls,0,BK05,BK05 East New York-Cypress Hills (CD 5 Approximation),31089.6613556,24378886.7845
+3,Brooklyn,47,BK0502,East New York (North),ENY_N,0,BK05,BK05 East New York-Cypress Hills (CD 5 Approximation),25634.3708724,27906985.5143
+3,Brooklyn,47,BK0503,East New York-New Lots,ENY_NwLts,0,BK05,BK05 East New York-Cypress Hills (CD 5 Approximation),36564.9221384,46458087.1583
+3,Brooklyn,47,BK0504,Spring Creek-Starrett City,SpCrk_StrC,0,BK05,BK05 East New York-Cypress Hills (CD 5 Approximation),32929.681301,27086261.2389
+3,Brooklyn,47,BK0505,East New York-City Line,ENY_CtyLn,0,BK05,BK05 East New York-Cypress Hills (CD 5 Approximation),29722.6972715,31529168.2312
+3,Brooklyn,47,BK0571,Highland Park-Cypress Hills Cemeteries (South),CyHlsCem_S,7,BK05,BK05 East New York-Cypress Hills (CD 5 Approximation),15889.670132,8100960.02835
+3,Brooklyn,47,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,CrrllGrdns,0,BK06,BK06 Park Slope-Carroll Gardens (CD 6 Approximation),67164.8713143,60811777.9097
+3,Brooklyn,47,BK0602,Park Slope,PkSlp,0,BK06,BK06 Park Slope-Carroll Gardens (CD 6 Approximation),23501.6963774,25829299.1477
+3,Brooklyn,47,BK0701,Windsor Terrace-South Slope,WndsrTr,0,BK07,BK07 Sunset Park-Windsor Terrace (CD 7 Approximation),21233.3223806,15312193.2624
+3,Brooklyn,47,BK0702,Sunset Park (West),SnstPk_W,0,BK07,BK07 Sunset Park-Windsor Terrace (CD 7 Approximation),79869.4676208,50378926.3048
+3,Brooklyn,47,BK0703,Sunset Park (Central),SnstPk_C,0,BK07,BK07 Sunset Park-Windsor Terrace (CD 7 Approximation),24014.3235981,18754283.5747
+3,Brooklyn,47,BK0771,Green-Wood Cemetery,GrnWdCem,7,BK07,BK07 Sunset Park-Windsor Terrace (CD 7 Approximation),18789.0223745,21101598.4551
+3,Brooklyn,47,BK0801,Prospect Heights,PrspctHts,0,BK08,BK08 Crown Heights (North) (CD 8 Approximation),15043.42602,10317998.8731
+3,Brooklyn,47,BK0802,Crown Heights (North),CrwnHts_N,0,BK08,BK08 Crown Heights (North) (CD 8 Approximation),30149.1119359,35416299.5051
+3,Brooklyn,47,BK0891,Lincoln Terrace Park,LclnTrPk,9,BK08,BK08 Crown Heights (North) (CD 8 Approximation),4568.61695824,1214617.20439
+3,Brooklyn,47,BK0901,Crown Heights (South),CrwnHts_S,0,BK09,BK09 Crown Heights (South) (CD 9 Approximation),24197.4188692,20053831.2869
+3,Brooklyn,47,BK0902,Prospect Lefferts Gardens-Wingate,PLG_Wngt,0,BK09,BK09 Crown Heights (South) (CD 9 Approximation),26322.6887315,24039825.8649
+3,Brooklyn,47,BK1001,Bay Ridge,ByRdg,0,BK10,BK10 Bay Ridge-Dyker Heights (CD 10 Approximation),41302.393105,61636884.1763
+3,Brooklyn,47,BK1002,Dyker Heights,DykrHts,0,BK10,BK10 Bay Ridge-Dyker Heights (CD 10 Approximation),25001.4902519,29119072.7659
+3,Brooklyn,47,BK1061,Fort Hamilton,FtHmltn,6,BK10,BK10 Bay Ridge-Dyker Heights (CD 10 Approximation),16460.9558915,8464624.25082
+3,Brooklyn,47,BK1091,Dyker Beach Park,DykrBchPk,9,BK10,BK10 Bay Ridge-Dyker Heights (CD 10 Approximation),14627.5015315,9989377.30555
+3,Brooklyn,47,BK1101,Bensonhurst,Bnsnhrst,0,BK11,BK11 Bensonhurst-Bath Beach (CD 11 Approximation),33669.6206896,48634931.3054
+3,Brooklyn,47,BK1102,Bath Beach,BthBch,0,BK11,BK11 Bensonhurst-Bath Beach (CD 11 Approximation),22422.3738907,20556456.5049
+3,Brooklyn,47,BK1103,Gravesend (West),Grvsnd_W,0,BK11,BK11 Bensonhurst-Bath Beach (CD 11 Approximation),32821.0633934,33835199.9242
+3,Brooklyn,47,BK1201,Sunset Park (East)-Borough Park (West),SnstPk_E,0,BK12,BK12 Borough Park-Kensington (CD 12 Approximation),15982.4795797,11749149.0763
+3,Brooklyn,47,BK1202,Borough Park,BoroPk,0,BK12,BK12 Borough Park-Kensington (CD 12 Approximation),28481.0788258,40481286.209
+3,Brooklyn,47,BK1203,Kensington,Knsngtn,0,BK12,BK12 Borough Park-Kensington (CD 12 Approximation),20316.7344947,17471228.5678
+3,Brooklyn,47,BK1204,Mapleton-Midwood (West),Mpltn,0,BK12,BK12 Borough Park-Kensington (CD 12 Approximation),27783.8770059,31356436.4968
+3,Brooklyn,47,BK1301,Gravesend (South),Grvsnd_S,0,BK13,BK13 Coney Island-Brighton Beach (CD 13 Approximation),36857.789678,25835766.4141
+3,Brooklyn,47,BK1302,Coney Island-Sea Gate,CnyIsl,0,BK13,BK13 Coney Island-Brighton Beach (CD 13 Approximation),49219.5225987,47588744.4463
+3,Brooklyn,47,BK1303,Brighton Beach,BrghtnBch,0,BK13,BK13 Coney Island-Brighton Beach (CD 13 Approximation),16805.8963456,13564293.5113
+3,Brooklyn,47,BK1391,Calvert Vaux Park,ClvrtVxPk,9,BK13,BK13 Coney Island-Brighton Beach (CD 13 Approximation),11280.7390606,4222370.92529
+3,Brooklyn,47,BK1401,Flatbush,Fltbsh,0,BK14,BK14 Flatbush-Midwood (CD 14 Approximation),33235.6144996,24024170.9071
+3,Brooklyn,47,BK1402,Flatbush (West)-Ditmas Park-Parkville,Fltbsh_W,0,BK14,BK14 Flatbush-Midwood (CD 14 Approximation),31252.1644935,22904661.2434
+3,Brooklyn,47,BK1403,Midwood,Mdwd,0,BK14,BK14 Flatbush-Midwood (CD 14 Approximation),25034.850805,32218510.5036
+3,Brooklyn,47,BK1501,Gravesend (East)-Homecrest,Grvsnd_E,0,BK15,BK15 Sheepshead Bay-Gravesend (East) (CD 15 Approximation),31842.34571,34879887.2984
+3,Brooklyn,47,BK1502,Madison,Mdsn,0,BK15,BK15 Sheepshead Bay-Gravesend (East) (CD 15 Approximation),26237.2574783,27379162.2434
+3,Brooklyn,47,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,ShpshdBy,0,BK15,BK15 Sheepshead Bay-Gravesend (East) (CD 15 Approximation),91279.920033,63370464.9436
+3,Brooklyn,47,BK1601,Ocean Hill,OcnHl,0,BK16,BK16 Ocean Hill-Brownsville (CD 16 Approximation),22493.7145077,20089686.2396
+3,Brooklyn,47,BK1602,Brownsville,Brwnsvl,0,BK16,BK16 Ocean Hill-Brownsville (CD 16 Approximation),25719.2901481,30785525.9349
+3,Brooklyn,47,BK1701,East Flatbush-Erasmus,EFb_Ersms,0,BK17,BK17 East Flatbush (CD 17 Approximation),21908.3884789,19770955.739
+3,Brooklyn,47,BK1702,East Flatbush-Farragut,EFb_Frrgt,0,BK17,BK17 East Flatbush (CD 17 Approximation),23276.2090214,24121898.8739
+3,Brooklyn,47,BK1703,East Flatbush-Rugby,EFb_Rgby,0,BK17,BK17 East Flatbush (CD 17 Approximation),31994.7058619,27204096.5369
+3,Brooklyn,47,BK1704,East Flatbush-Remsen Village,EFb_RmsnVl,0,BK17,BK17 East Flatbush (CD 17 Approximation),22056.7581241,18390696.3511
+3,Brooklyn,47,BK1771,Holy Cross Cemetery,HlyCrssCem,7,BK17,BK17 East Flatbush (CD 17 Approximation),9226.10071533,4276575.27415
+3,Brooklyn,47,BK1801,Flatlands,Fltlnds,0,BK18,BK18 Canarsie-Flatlands (CD 18 Approximation),40597.2781543,54337180.5023
+3,Brooklyn,47,BK1802,Marine Park-Mill Basin-Bergen Beach,MrnPk_MBsn,0,BK18,BK18 Canarsie-Flatlands (CD 18 Approximation),76294.7332726,58871249.5789
+3,Brooklyn,47,BK1803,Canarsie,Cnrsie,0,BK18,BK18 Canarsie-Flatlands (CD 18 Approximation),42346.1171195,70533384.7947
+3,Brooklyn,47,BK1891,Marine Park-Plumb Island,MrnPk_PIsl,9,BK18,BK18 Canarsie-Flatlands (CD 18 Approximation),96948.2520985,43267148.4951
+3,Brooklyn,47,BK1892,McGuire Fields,McGrFlds,9,BK18,BK18 Canarsie-Flatlands (CD 18 Approximation),24718.5811259,10589588.7703
+3,Brooklyn,47,BK1893,Canarsie Park & Pier,CnrsiePk,9,BK18,BK18 Canarsie-Flatlands (CD 18 Approximation),24203.9931907,11552049.3338
+3,Brooklyn,47,BK5591,Prospect Park,PrspctPk,9,BK55,BK55 Prospect Park (JIA 55 Approximation),24199.2161196,27318825.3497
+3,Brooklyn,47,BK5691,Barren Island-Floyd Bennett Field,BrrnIsl,9,BK56,BK56 Jamaica Bay (West) (JIA 56 Approximation),44394.1577507,54676007.9064
+3,Brooklyn,47,BK5692,Jamaica Bay (West),JmcaBy_W,9,BK56,BK56 Jamaica Bay (West) (JIA 56 Approximation),136901.829722,39754276.8935
+3,Brooklyn,47,BK5693,Shirley Chisholm State Park,ShChshlmPk,9,BK56,BK56 Jamaica Bay (West) (JIA 56 Approximation),26521.917742,18284900.8907
+2,Bronx,5,BX0101,Mott Haven-Port Morris,MttHvn,0,BX01,BX01 Melrose-Mott Haven-Port Morris (CD 1 Approximation),29217.4141379,40974743.8394
+2,Bronx,5,BX0102,Melrose,Mlrs,0,BX01,BX01 Melrose-Mott Haven-Port Morris (CD 1 Approximation),19589.1957848,17271764.0101
+2,Bronx,5,BX0201,Hunts Point,HntsPt,0,BX02,BX02 Longwood-Hunts Point (CD 2 Approximation),37430.5331651,45024974.2916
+2,Bronx,5,BX0202,Longwood,Lngwd,0,BX02,BX02 Longwood-Hunts Point (CD 2 Approximation),21722.406653,15398909.2717
+2,Bronx,5,BX0291,North & South Brother Islands,BrthrIsls,9,BX02,BX02 Longwood-Hunts Point (CD 2 Approximation),6884.55160267,930649.178846
+2,Bronx,5,BX0301,Morrisania,Mrrsnia,0,BX03,BX03 Morrisania-Crotona Park East (CD 3 Approximation),21889.2147363,13811173.6972
+2,Bronx,5,BX0302,Claremont Village-Claremont (East),ClrmntVlg,0,BX03,BX03 Morrisania-Crotona Park East (CD 3 Approximation),16428.063862,9998253.87876
+2,Bronx,5,BX0303,Crotona Park East,CrtnaPkEst,0,BX03,BX03 Morrisania-Crotona Park East (CD 3 Approximation),20755.057984,15978694.8031
+2,Bronx,5,BX0391,Crotona Park,CrtnaPk,9,BX03,BX03 Morrisania-Crotona Park East (CD 3 Approximation),11725.2461047,6339738.9994
+2,Bronx,5,BX0401,Concourse-Concourse Village,Cncrs,0,BX04,BX04 Highbridge-Concourse (CD 4 Approximation),29504.1897281,26502982.337
+2,Bronx,5,BX0402,Highbridge,Hghbrdg,0,BX04,BX04 Highbridge-Concourse (CD 4 Approximation),15723.426785,13048058.903
+2,Bronx,5,BX0403,Mount Eden-Claremont (West),MtEdn,0,BX04,BX04 Highbridge-Concourse (CD 4 Approximation),21598.9605873,13607411.4119
+2,Bronx,5,BX0491,Yankee Stadium-Macombs Dam Park,YnkStdm,9,BX04,BX04 Highbridge-Concourse (CD 4 Approximation),9678.13363523,2811049.72446
+2,Bronx,5,BX0492,Claremont Park,ClrmntPk,9,BX04,BX04 Highbridge-Concourse (CD 4 Approximation),6257.33974374,1862238.83971
+2,Bronx,5,BX0501,University Heights (South)-Morris Heights,UnvrsHts_S,0,BX05,BX05 Morris Heights-Mount Hope (CD 5 Approximation),21833.8725883,19642617.1129
+2,Bronx,5,BX0502,Mount Hope,MtHp,0,BX05,BX05 Morris Heights-Mount Hope (CD 5 Approximation),16278.2432382,12684327.4733
+2,Bronx,5,BX0503,Fordham Heights,FrdhmHts,0,BX05,BX05 Morris Heights-Mount Hope (CD 5 Approximation),12917.2800472,7379039.8277
+2,Bronx,5,BX0601,West Farms,WstFrms,0,BX06,BX06 Tremont-Belmont-West Farms (CD 6 Approximation),21993.6283684,11701248.447
+2,Bronx,5,BX0602,Tremont,Trmnt,0,BX06,BX06 Tremont-Belmont-West Farms (CD 6 Approximation),18324.1149353,15826653.8686
+2,Bronx,5,BX0603,Belmont,Blmnt,0,BX06,BX06 Tremont-Belmont-West Farms (CD 6 Approximation),19746.6528478,16393957.4518
+2,Bronx,5,BX0701,University Heights (North)-Fordham,UnvrsHts_N,0,BX07,BX07 Fordham-Bedford Park-Norwood (CD 7 Approximation),27360.6202538,18313195.1519
+2,Bronx,5,BX0702,Bedford Park,BdfrdPk,0,BX07,BX07 Fordham-Bedford Park-Norwood (CD 7 Approximation),20847.6055744,24553606.6693
+2,Bronx,5,BX0703,Norwood,Nrwd,0,BX07,BX07 Fordham-Bedford Park-Norwood (CD 7 Approximation),22139.0118922,15721133.8853
+2,Bronx,5,BX0801,Kingsbridge Heights-Van Cortlandt Village,KngbrdgHts,0,BX08,BX08 Riverdale-Kingsbridge-Marble Hill (CD 8 Approximation),20471.1169409,10970194.8102
+2,Bronx,5,BX0802,Kingsbridge-Marble Hill,Kngbrdg,0,BX08,BX08 Riverdale-Kingsbridge-Marble Hill (CD 8 Approximation),19810.9643057,12312473.9654
+2,Bronx,5,BX0803,Riverdale-Spuyten Duyvil,Rvrdl,0,BX08,BX08 Riverdale-Kingsbridge-Marble Hill (CD 8 Approximation),37646.5885757,62983243.9042
+2,Bronx,5,BX0901,Soundview-Bruckner-Bronx River,Sdvw_BxRvr,0,BX09,BX09 Soundview-Parkchester (CD 9 Approximation),26836.6199475,32208011.091
+2,Bronx,5,BX0902,Soundview-Clason Point,Sdvw_ClsPt,0,BX09,BX09 Soundview-Parkchester (CD 9 Approximation),40475.0764244,30323642.0659
+2,Bronx,5,BX0903,Castle Hill-Unionport,CstlHl,0,BX09,BX09 Soundview-Parkchester (CD 9 Approximation),39756.7175604,32897687.2272
+2,Bronx,5,BX0904,Parkchester,Pkchstr,0,BX09,BX09 Soundview-Parkchester (CD 9 Approximation),12411.8210451,9184335.37344
+2,Bronx,5,BX0991,Soundview Park,SdvwPk,9,BX09,BX09 Soundview-Parkchester (CD 9 Approximation),18349.7751361,7794400.48623
+2,Bronx,5,BX1001,Westchester Square,WstchstrSq,0,BX10,BX10 Co-op City-Throgs Neck (CD 10 Approximation),23739.7064899,15373412.4202
+2,Bronx,5,BX1002,Throgs Neck-Schuylerville,ThrgsNck,0,BX10,BX10 Co-op City-Throgs Neck (CD 10 Approximation),86658.4257079,66476701.1353
+2,Bronx,5,BX1003,Pelham Bay-Country Club-City Island,PlhmBy,0,BX10,BX10 Co-op City-Throgs Neck (CD 10 Approximation),121140.616881,35309768.2107
+2,Bronx,5,BX1004,Co-op City,CoopCty,0,BX10,BX10 Co-op City-Throgs Neck (CD 10 Approximation),25102.6493541,29055691.8896
+2,Bronx,5,BX1071,Hart Island,HrtIsl,7,BX10,BX10 Co-op City-Throgs Neck (CD 10 Approximation),16969.5838688,4905129.20093
+2,Bronx,5,BX1091,Ferry Point Park-St. Raymond Cemetery,FrryPtPk,9,BX10,BX10 Co-op City-Throgs Neck (CD 10 Approximation),26872.2150145,21745194.3531
+2,Bronx,5,BX1101,Pelham Parkway-Van Nest,PlhmPkwy,0,BX11,BX11 Pelham Parkway-Morris Park (CD 11 Approximation),22993.8204586,15588390.1942
+2,Bronx,5,BX1102,Morris Park,MrrsPk,0,BX11,BX11 Pelham Parkway-Morris Park (CD 11 Approximation),24671.3979358,27833108.9336
+2,Bronx,5,BX1103,Pelham Gardens,PlhmGrdns,0,BX11,BX11 Pelham Parkway-Morris Park (CD 11 Approximation),24342.895677,30064181.1663
+2,Bronx,5,BX1104,Allerton,Allrtn,0,BX11,BX11 Pelham Parkway-Morris Park (CD 11 Approximation),17837.9372112,15753915.6386
+2,Bronx,5,BX1161,Hutchinson Metro Center,HtchMtrCtr,6,BX11,BX11 Pelham Parkway-Morris Park (CD 11 Approximation),20669.4375082,12190146.1387
+2,Bronx,5,BX1201,Williamsbridge-Olinville,Wllmsbrdg,0,BX12,BX12 Wakefield-Williamsbridge-Eastchester (CD 12 Approximation),29370.8199883,36242285.5929
+2,Bronx,5,BX1202,Eastchester-Edenwald-Baychester,Estchstr,0,BX12,BX12 Wakefield-Williamsbridge-Eastchester (CD 12 Approximation),54240.3776895,56395940.1063
+2,Bronx,5,BX1203,Wakefield-Woodlawn,Wkfld_Wdln,0,BX12,BX12 Wakefield-Williamsbridge-Eastchester (CD 12 Approximation),39101.7264595,39646811.8353
+2,Bronx,5,BX1271,Woodlawn Cemetery,WdlnCem,7,BX12,BX12 Wakefield-Williamsbridge-Eastchester (CD 12 Approximation),18168.5908242,17886378.9836
+2,Bronx,5,BX2691,Van Cortlandt Park,VnCrtldtPk,9,BX26,BX26 Van Cortlandt Park (JIA 26 Equivalent),32864.1143508,50658600.0584
+2,Bronx,5,BX2791,Bronx Park,BxPk,9,BX27,BX27 Bronx Park (JIA 27 Approximation),32846.0124495,33461137.997
+2,Bronx,5,BX2891,Pelham Bay Park,PlhmByPk,9,BX28,BX28 Pelham Bay Park (JIA 28 Approximation),111081.193859,99280602.9876
+1,Manhattan,61,MN0101,Financial District-Battery Park City,FiDi,0,MN01,MN01 Financial District-Tribeca (CD 1 Equivalent),44446.23701,19245010.2267
+1,Manhattan,61,MN0102,Tribeca-Civic Center,TriBeCa,0,MN01,MN01 Financial District-Tribeca (CD 1 Equivalent),21222.4438605,13577180.8544
+1,Manhattan,61,MN0191,The Battery-Governors Island-Ellis Island-Liberty Island,Btry_GvIsl,9,MN01,MN01 Financial District-Tribeca (CD 1 Equivalent),48758.7056944,11989895.9472
+1,Manhattan,61,MN0201,SoHo-Little Italy-Hudson Square,SoHo,0,MN02,MN02 Greenwich Village-SoHo (CD 2 Equivalent),18577.1117369,12916760.8197
+1,Manhattan,61,MN0202,Greenwich Village,GrnwchVlg,0,MN02,MN02 Greenwich Village-SoHo (CD 2 Equivalent),12973.9502246,10599574.2038
+1,Manhattan,61,MN0203,West Village,WstVlg,0,MN02,MN02 Greenwich Village-SoHo (CD 2 Equivalent),23882.339236,14417743.2208
+1,Manhattan,61,MN0301,Chinatown-Two Bridges,Chntwn,0,MN03,MN03 Lower East Side-Chinatown (CD 3 Equivalent),16464.4819808,11542575.3819
+1,Manhattan,61,MN0302,Lower East Side,LES,0,MN03,MN03 Lower East Side-Chinatown (CD 3 Equivalent),19890.8854458,16473190.8355
+1,Manhattan,61,MN0303,East Village,EstVlg,0,MN03,MN03 Lower East Side-Chinatown (CD 3 Equivalent),21975.6267264,18984762.3304
+1,Manhattan,61,MN0401,Chelsea-Hudson Yards,Chls_HdsYd,0,MN04,MN04 Chelsea-Hell's Kitchen (CD 4 Approximation),40095.235373,29671752.0467
+1,Manhattan,61,MN0402,Hell's Kitchen,HllsKtchn,0,MN04,MN04 Chelsea-Hell's Kitchen (CD 4 Approximation),34693.874782,18382315.8164
+1,Manhattan,61,MN0501,Midtown South-Flatiron-Union Square,MdtwnSth,0,MN05,MN05 Midtown-Flatiron-Union Square (CD 5 Approximation),18800.7659691,14878105.0779
+1,Manhattan,61,MN0502,Midtown-Times Square,Mdtwn_TmSq,0,MN05,MN05 Midtown-Flatiron-Union Square (CD 5 Approximation),21258.4015908,24552509.2228
+1,Manhattan,61,MN0601,Stuyvesant Town-Peter Cooper Village,StyTwn,0,MN06,MN06 East Midtown-Murray Hill (CD 6 Approximation),11061.8199809,5575563.11832
+1,Manhattan,61,MN0602,Gramercy,Grmrcy,0,MN06,MN06 East Midtown-Murray Hill (CD 6 Approximation),12096.8909425,7526916.45385
+1,Manhattan,61,MN0603,Murray Hill-Kips Bay,MryHl_KpBy,0,MN06,MN06 East Midtown-Murray Hill (CD 6 Approximation),23944.7998741,15771152.6703
+1,Manhattan,61,MN0604,East Midtown-Turtle Bay,EstMdtwn,0,MN06,MN06 East Midtown-Murray Hill (CD 6 Approximation),16654.6856629,13138095.5691
+1,Manhattan,61,MN0661,United Nations,UN,6,MN06,MN06 East Midtown-Murray Hill (CD 6 Approximation),5307.39150159,1091250.05307
+1,Manhattan,61,MN0701,Upper West Side-Lincoln Square,UWS_LclnSq,0,MN07,MN07 Upper West Side (CD 7 Approximation),19952.4204829,15797448.7354
+1,Manhattan,61,MN0702,Upper West Side (Central),UWS_C,0,MN07,MN07 Upper West Side (CD 7 Approximation),24906.0092231,25410667.6522
+1,Manhattan,61,MN0703,Upper West Side-Manhattan Valley,UWS_MnVly,0,MN07,MN07 Upper West Side (CD 7 Approximation),14867.8728335,13200449.7907
+1,Manhattan,61,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,UES_LnxHl,0,MN08,MN08 Upper East Side-Roosevelt Island (CD 8 Equivalent),38425.3833373,21500956.481
+1,Manhattan,61,MN0802,Upper East Side-Carnegie Hill,UES_CrngHl,0,MN08,MN08 Upper East Side-Roosevelt Island (CD 8 Equivalent),23778.4103346,20065363.9028
+1,Manhattan,61,MN0803,Upper East Side-Yorkville,UES_Yrkvl,0,MN08,MN08 Upper East Side-Roosevelt Island (CD 8 Equivalent),18075.2399914,13645033.6012
+1,Manhattan,61,MN0901,Morningside Heights,MrngsdHts,0,MN09,MN09 Morningside Heights-Hamilton Heights (CD 9 Equivalent),17757.8073524,15922766.6152
+1,Manhattan,61,MN0902,Manhattanville-West Harlem,Mnhttnvl,0,MN09,MN09 Morningside Heights-Hamilton Heights (CD 9 Equivalent),17357.2462807,10734804.6856
+1,Manhattan,61,MN0903,Hamilton Heights-Sugar Hill,HmltnHts,0,MN09,MN09 Morningside Heights-Hamilton Heights (CD 9 Equivalent),17103.213499,15983585.339
+1,Manhattan,61,MN1001,Harlem (South),Hrlm_S,0,MN10,MN10 Harlem (CD 10 Equivalent),16663.3390732,14426413.7517
+1,Manhattan,61,MN1002,Harlem (North),Hrlm_N,0,MN10,MN10 Harlem (CD 10 Equivalent),26079.443139,23792908.419
+1,Manhattan,61,MN1101,East Harlem (South),EstHrlm_S,0,MN11,MN11 East Harlem (CD 11 Equivalent),18682.2650598,16653939.8071
+1,Manhattan,61,MN1102,East Harlem (North),EstHrlm_N,0,MN11,MN11 East Harlem (CD 11 Equivalent),28749.87657,26119318.6401
+1,Manhattan,61,MN1191,Randall's Island,RndllsIsl,9,MN11,MN11 East Harlem (CD 11 Equivalent),24946.2383727,23466537.54
+1,Manhattan,61,MN1201,Washington Heights (South),WshHts_S,0,MN12,MN12 Washington Heights-Inwood (CD 12 Equivalent),22198.2605464,21027673.1766
+1,Manhattan,61,MN1202,Washington Heights (North),WshHts_N,0,MN12,MN12 Washington Heights-Inwood (CD 12 Equivalent),26731.5959744,24773510.6301
+1,Manhattan,61,MN1203,Inwood,Inwd,0,MN12,MN12 Washington Heights-Inwood (CD 12 Equivalent),23347.4046231,14437615.8767
+1,Manhattan,61,MN1291,Highbridge Park,HghbrdgPk,9,MN12,MN12 Washington Heights-Inwood (CD 12 Equivalent),27246.1862155,7750592.2391
+1,Manhattan,61,MN1292,Inwood Hill Park,InwdHlPk,9,MN12,MN12 Washington Heights-Inwood (CD 12 Equivalent),20537.2052283,10007466.8968
+1,Manhattan,61,MN6491,Central Park,CntrlPk,9,MN64,MN64 Central Park (JIA 64 Equivalent),32721.0975155,38312378.818
+4,Queens,81,QN0101,Astoria (North)-Ditmars-Steinway,Astr_N,0,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),45685.639874,58301781.0393
+4,Queens,81,QN0102,Old Astoria-Hallets Point,OldAstr,0,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),15102.2624012,11091067.0044
+4,Queens,81,QN0103,Astoria (Central),Astr_C,0,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),21571.9909055,21084822.0502
+4,Queens,81,QN0104,Astoria (East)-Woodside (North),Astr_E,0,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),24359.8799953,26043278.8597
+4,Queens,81,QN0105,Queensbridge-Ravenswood-Dutch Kills,Qnsbrdg,0,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),27093.7861424,27721578.0433
+2,Bronx,5,QN0151,Rikers Island,RkrsIsl,5,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),18897.4877318,18163734.7233
+4,Queens,81,QN0161,Sunnyside Yards (North),SnnysdYd_N,6,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),16111.6114399,4500282.3588
+4,Queens,81,QN0171,St. Michael's Cemetery,StMchlCem,7,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),8656.46282918,4388717.12207
+4,Queens,81,QN0191,Astoria Park,AstrPk,9,QN01,QN01 Astoria-Queensbridge (CD 1 Equivalent),8570.89476599,2674946.20785
+4,Queens,81,QN0201,Long Island City-Hunters Point,LIC,0,QN02,QN02 Long Island City-Sunnyside-Woodside (CD 2 Approximation),37374.7367861,27595429.4202
+4,Queens,81,QN0202,Sunnyside,Snnysd,0,QN02,QN02 Long Island City-Sunnyside-Woodside (CD 2 Approximation),34952.1548961,47701716.8081
+4,Queens,81,QN0203,Woodside,Wdsd,0,QN02,QN02 Long Island City-Sunnyside-Woodside (CD 2 Approximation),31737.2707487,32949876.7906
+4,Queens,81,QN0261,Sunnyside Yards (South),SnnysdYd_S,6,QN02,QN02 Long Island City-Sunnyside-Woodside (CD 2 Approximation),22732.9054934,8783519.00978
+4,Queens,81,QN0271,Calvary & Mount Zion Cemeteries,ClvryCem,7,QN02,QN02 Long Island City-Sunnyside-Woodside (CD 2 Approximation),22214.0793255,14291819.9239
+4,Queens,81,QN0301,Jackson Heights,JcksnHts,0,QN03,QN03 Jackson Heights-East Elmhurst (CD 3 Approximation),27112.8039084,39315142.7524
+4,Queens,81,QN0302,East Elmhurst,EstElmhrst,0,QN03,QN03 Jackson Heights-East Elmhurst (CD 3 Approximation),24418.5679704,28763853.6739
+4,Queens,81,QN0303,North Corona,NrthCrna,0,QN03,QN03 Jackson Heights-East Elmhurst (CD 3 Approximation),15547.5813978,13961243.7443
+4,Queens,81,QN0401,Elmhurst,Elmhrst,0,QN04,QN04 Elmhurst-Corona (CD 4 Approximation),31838.0542574,42102083.9195
+4,Queens,81,QN0402,Corona,Crna,0,QN04,QN04 Elmhurst-Corona (CD 4 Approximation),22083.4232743,24025748.1168
+4,Queens,81,QN0501,Maspeth,Mspth,0,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),53783.9683061,58314660.5531
+4,Queens,81,QN0502,Ridgewood,Rdgwd,0,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),33458.895795,42550445.488
+4,Queens,81,QN0503,Glendale,Glndl,0,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),41557.4903818,30006442.4355
+4,Queens,81,QN0504,Middle Village,MddlVlg,0,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),35018.3939802,34943403.2648
+4,Queens,81,QN0571,Mount Olivet & All Faiths Cemeteries,MtOlvtCem,7,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),19128.44878,7646808.67365
+4,Queens,81,QN0572,Middle Village Cemetery,MddlVlgCem,7,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),10370.4612317,5511491.24901
+4,Queens,81,QN0573,St. John Cemetery,StJhnCem,7,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),11694.1567025,8754117.44361
+4,Queens,81,QN0574,Highland Park-Cypress Hills Cemeteries (North),CyHlsCem_N,7,QN05,QN05 Ridgewood-Maspeth-Middle Village (CD 5 Approximation),33067.8268991,31227050.0536
+4,Queens,81,QN0601,Rego Park,RegoPk,0,QN06,QN06 Forest Hills-Rego Park (CD 6 Approximation),26496.2224952,20193352.0502
+4,Queens,81,QN0602,Forest Hills,FrstHls,0,QN06,QN06 Forest Hills-Rego Park (CD 6 Approximation),36075.5944464,57954644.3024
+4,Queens,81,QN0701,College Point,CllgPt,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),67457.4153748,66709281.0693
+4,Queens,81,QN0702,Whitestone-Beechhurst,Whtstn,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),44452.5172098,52637756.4216
+4,Queens,81,QN0703,Bay Terrace-Clearview,ByTr_Clrvw,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),31201.8686567,39315519.7692
+4,Queens,81,QN0704,Murray Hill-Broadway Flushing,MryHl_BwyF,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),37469.2244064,56452698.9206
+4,Queens,81,QN0705,East Flushing,EstFlshng,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),28376.5005507,31659932.7074
+4,Queens,81,QN0706,Queensboro Hill,QnsboroHl,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),30839.701139,26427738.0571
+4,Queens,81,QN0707,Flushing-Willets Point,Flshng,0,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),30770.9096519,38542563.6647
+4,Queens,81,QN0761,Fort Totten,FtTttn,6,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),14563.7379861,6957321.45437
+4,Queens,81,QN0791,Kissena Park,KssnPk,9,QN07,QN07 Flushing-Murray Hill-Whitestone (CD 7 Approximation),15363.2554764,11016228.0776
+4,Queens,81,QN0801,Kew Gardens Hills,KwGrdnsHls,0,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),28291.717768,34304348.3345
+4,Queens,81,QN0802,Pomonok-Electchester-Hillcrest,Pmnk_Hlcst,0,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),28608.0403629,36974156.6077
+4,Queens,81,QN0803,Fresh Meadows-Utopia,FrshMdws,0,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),28347.5467894,33196056.2645
+4,Queens,81,QN0804,Jamaica Estates-Holliswood,JmcaEstts,0,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),32384.3129699,39411732.2317
+4,Queens,81,QN0805,Jamaica Hills-Briarwood,JmcaHls,0,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),29698.153064,27644432.5077
+4,Queens,81,QN0871,Mount Hebron & Cedar Grove Cemeteries,MtHbrnCem,7,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),15876.2580568,9208958.43682
+4,Queens,81,QN0891,Cunningham Park,CnnghmPk,9,QN08,QN08 Fresh Meadows-Hillcrest-Briarwood (CD 8 Approximation),28158.2104582,21304892.2389
+4,Queens,81,QN0901,Kew Gardens,KwGrdns,0,QN09,QN09 Kew Gardens-Richmond Hill-Woodhaven (CD 9 Approximation),21653.2151937,20284899.09
+4,Queens,81,QN0902,Richmond Hill,RchmdHl,0,QN09,QN09 Kew Gardens-Richmond Hill-Woodhaven (CD 9 Approximation),26207.7513423,30269745.8697
+4,Queens,81,QN0903,South Richmond Hill,SthRchmdHl,0,QN09,QN09 Kew Gardens-Richmond Hill-Woodhaven (CD 9 Approximation),21161.5696237,15849139.7636
+4,Queens,81,QN0904,Ozone Park (North),OznPk_N,0,QN09,QN09 Kew Gardens-Richmond Hill-Woodhaven (CD 9 Approximation),24790.7571185,18087303.5323
+4,Queens,81,QN0905,Woodhaven,Wdhvn,0,QN09,QN09 Kew Gardens-Richmond Hill-Woodhaven (CD 9 Approximation),21956.4211508,23727497.0525
+4,Queens,81,QN1001,South Ozone Park,SthOznPk,0,QN10,QN10 South Ozone Park-Howard Beach (CD 10 Approximation),36690.0783473,81836594.1641
+4,Queens,81,QN1002,Ozone Park,OznPk,0,QN10,QN10 South Ozone Park-Howard Beach (CD 10 Approximation),25097.1962606,25107784.8345
+4,Queens,81,QN1003,Howard Beach-Lindenwood,HwrdBch,0,QN10,QN10 South Ozone Park-Howard Beach (CD 10 Approximation),73875.0863703,52604803.9084
+4,Queens,81,QN1091,Spring Creek Park,SpCrkPk,9,QN10,QN10 South Ozone Park-Howard Beach (CD 10 Approximation),28395.9712007,11848150.5698
+4,Queens,81,QN1101,Auburndale,Abrndl,0,QN11,QN11 Auburndale-Bayside-Douglaston (CD 11 Approximation),39268.9926577,55464055.6787
+4,Queens,81,QN1102,Bayside,Bysd,0,QN11,QN11 Auburndale-Bayside-Douglaston (CD 11 Approximation),41945.5008946,70410060.939
+4,Queens,81,QN1103,Douglaston-Little Neck,Dglstn,0,QN11,QN11 Auburndale-Bayside-Douglaston (CD 11 Approximation),51882.3066647,68149460.8268
+4,Queens,81,QN1104,Oakland Gardens-Hollis Hills,OklndGrdns,0,QN11,QN11 Auburndale-Bayside-Douglaston (CD 11 Approximation),33891.0995472,39634775.3938
+4,Queens,81,QN1191,Alley Pond Park,AllyPndPk,9,QN11,QN11 Auburndale-Bayside-Douglaston (CD 11 Approximation),48184.4020895,26132396.2376
+4,Queens,81,QN1201,Jamaica,Jmca,0,QN12,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),41771.9321179,46824594.5567
+4,Queens,81,QN1202,South Jamaica,SthJmca,0,QN12,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),33189.3640423,37868412.2154
+4,Queens,81,QN1203,Baisley Park,BslyPk,0,QN12,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),32461.2904014,47948908.2236
+4,Queens,81,QN1204,Springfield Gardens (North)-Rochdale Village,SpfGrdns_N,0,QN12,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),27779.4048191,34464287.7677
+4,Queens,81,QN1205,St. Albans,StAlbns,0,QN12,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),41392.5376858,74276850.1431
+4,Queens,81,QN1206,Hollis,Hlls,0,QN12,QN12 Jamaica-St. Albans-Hollis (CD 12 Approximation),22923.7585447,24469174.6673
+4,Queens,81,QN1301,Glen Oaks-Floral Park-New Hyde Park,GlnOks,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),33404.1387431,45421116.8137
+4,Queens,81,QN1302,Bellerose,Bllrs,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),32397.5769516,55322161.8929
+4,Queens,81,QN1303,Queens Village,QnsVlg,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),37292.3113788,69655555.6156
+4,Queens,81,QN1304,Cambria Heights,CmbriaHts,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),26160.9873795,33073254.0379
+4,Queens,81,QN1305,Laurelton,Lrltn,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),30011.281029,39840608.8865
+4,Queens,81,QN1306,Springfield Gardens (South)-Brookville,SpfGrdns_S,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),46029.1319439,57436454.7964
+4,Queens,81,QN1307,Rosedale,Rsdl,0,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),55266.0284164,47235424.3086
+4,Queens,81,QN1371,Montefiore Cemetery,MntfrCem,7,QN13,QN13 Queens Village-Bellerose-Rosedale (CD 13 Approximation),11843.083668,5322023.02037
+4,Queens,81,QN1401,Far Rockaway-Bayswater,FrRckwy,0,QN14,QN14 The Rockaways (CD 14 Approximation),48622.4866688,60474867.019
+4,Queens,81,QN1402,Rockaway Beach-Arverne-Edgemere,RckwyBch,0,QN14,QN14 The Rockaways (CD 14 Approximation),67119.9688284,50502112.8817
+4,Queens,81,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,BrzyPt,0,QN14,QN14 The Rockaways (CD 14 Approximation),104337.702538,69234013.6728
+4,Queens,81,QN1491,Rockaway Community Park,RckwyCPk,9,QN14,QN14 The Rockaways (CD 14 Approximation),21348.912448,8929707.70127
+4,Queens,81,QN8081,LaGuardia Airport,LGA,8,QN80,QN80 LaGuardia Airport (JIA 80 Approximation),40422.8379025,30591951.8917
+4,Queens,81,QN8191,Flushing Meadows-Corona Park,FlshMdwCPk,9,QN81,QN81 Flushing Meadows-Corona Park (JIA 81 Approximation),61514.1111275,55201416.6536
+4,Queens,81,QN8291,Forest Park,FrstPk,9,QN82,QN82 Forest Park (JIA 82 Approximation),29485.1245715,24009736.3329
+4,Queens,81,QN8381,John F. Kennedy International Airport,JFK,8,QN83,QN83 JFK International Airport (JIA 83 Approximation),103641.307397,197189856.775
+4,Queens,81,QN8491,Jamaica Bay (East),JmcaBy_E,9,QN84,QN84 Jamaica Bay (East) (JIA 84 Approximation),148864.816545,69920670.5404
+4,Queens,81,QN8492,Jacob Riis Park-Fort Tilden-Breezy Point Tip,JcbRsPk,9,QN84,QN84 Jamaica Bay (East) (JIA 84 Approximation),63381.1031995,52634576.9557
+5,Staten Island,85,SI0101,St. George-New Brighton,StGrg,0,SI01,SI01 North Shore (CD 1 Equivalent),31945.0266977,26508981.6285
+5,Staten Island,85,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Tkvl_Stptn,0,SI01,SI01 North Shore (CD 1 Equivalent),31620.2543923,24241445.9612
+5,Staten Island,85,SI0103,Rosebank-Shore Acres-Park Hill,Rsbnk_PkHl,0,SI01,SI01 North Shore (CD 1 Equivalent),35208.6937707,35251163.0419
+5,Staten Island,85,SI0104,West New Brighton-Silver Lake-Grymes Hill,WstNwBrgtn,0,SI01,SI01 North Shore (CD 1 Equivalent),55177.86501,85358863.172
+5,Staten Island,85,SI0105,Westerleigh-Castleton Corners,Wstrlgh,0,SI01,SI01 North Shore (CD 1 Equivalent),42608.1032952,76529172.2015
+5,Staten Island,85,SI0106,Port Richmond,PrtRchmnd,0,SI01,SI01 North Shore (CD 1 Equivalent),39708.1581326,36236920.6811
+5,Staten Island,85,SI0107,Mariner's Harbor-Arlington-Graniteville,MrnrsHrbr,0,SI01,SI01 North Shore (CD 1 Equivalent),71332.7028273,89389406.4505
+5,Staten Island,85,SI0191,Snug Harbor,SngHrbr,9,SI01,SI01 North Shore (CD 1 Equivalent),9028.4026746,3768355.11824
+5,Staten Island,85,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Grsmr_SBch,0,SI02,SI02 Mid-Island (CD 2 Approximation),43110.1450042,80113159.7715
+5,Staten Island,85,SI0202,New Dorp-Midland Beach,NwDrp_MBch,0,SI02,SI02 Mid-Island (CD 2 Approximation),49753.4735307,62182629.1423
+5,Staten Island,85,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,TdtHl,0,SI02,SI02 Mid-Island (CD 2 Approximation),71381.6411066,186308266.607
+5,Staten Island,85,SI0204,New Springville-Willowbrook-Bulls Head-Travis,NwSprngvl,0,SI02,SI02 Mid-Island (CD 2 Approximation),91480.4513765,209384910.536
+5,Staten Island,85,SI0291,Freshkills Park (North),FrshklPk_N,9,SI02,SI02 Mid-Island (CD 2 Approximation),44217.7670817,68180388.1103
+5,Staten Island,85,SI0301,Oakwood-Richmondtown,Okwd_Rmtwn,0,SI03,SI03 South Shore (CD 3 Approximation),44192.9039161,55937303.3368
+5,Staten Island,85,SI0302,Great Kills-Eltingville,GrtKls_Evl,0,SI03,SI03 South Shore (CD 3 Approximation),67428.3746039,116746665.448
+5,Staten Island,85,SI0303,Arden Heights-Rossville,ArdnHts,0,SI03,SI03 South Shore (CD 3 Approximation),38159.8608169,67773961.1507
+5,Staten Island,85,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Anndl_Wdrw,0,SI03,SI03 South Shore (CD 3 Approximation),67585.5453959,180426283.718
+5,Staten Island,85,SI0305,Tottenville-Charleston,Tttnvl,0,SI03,SI03 South Shore (CD 3 Approximation),82939.2641077,126774044.288
+5,Staten Island,85,SI0391,Freshkills Park (South),FrshklPK_S,9,SI03,SI03 South Shore (CD 3 Approximation),33945.4204211,47758768.0799
+5,Staten Island,85,SI9561,Fort Wadsworth,FtWdswrth,6,SI95,SI95 Great Kills Park-Fort Wadsworth (JIA 95 Approximation),14814.4147411,9867248.986
+5,Staten Island,85,SI9591,Hoffman & Swinburne Islands,HffmnIsl,9,SI95,SI95 Great Kills Park-Fort Wadsworth (JIA 95 Approximation),4743.12812675,635701.967583
+5,Staten Island,85,SI9592,Miller Field,MllrFld,9,SI95,SI95 Great Kills Park-Fort Wadsworth (JIA 95 Approximation),19197.2009732,10866804.1436
+5,Staten Island,85,SI9593,Great Kills Park,GrtKlsPk,9,SI95,SI95 Great Kills Park-Fort Wadsworth (JIA 95 Approximation),41465.4301871,23377914.8587

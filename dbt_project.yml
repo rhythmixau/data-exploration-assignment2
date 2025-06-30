@@ -5,6 +5,10 @@ version: '0.1'
 
 profile: 'data_exploration_assignment2'
 
+on-run-start:
+  - "INSTALL spatial;"
+  - "LOAD spatial;"
+
 model-paths: ["models"]
 seed-paths: ["seeds"]
 test-paths: ["tests"]
@@ -32,3 +36,7 @@ models:
         node_color: 'silver'
     +docs:
       node_color: 'gold'
+
+dispatch:
+  - macro_namespace: dbt_duckdb
+    search_order: ['dbt_duckdb_spatial', 'dbt_duckdb']

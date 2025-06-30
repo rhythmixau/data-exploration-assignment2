@@ -1,0 +1,11 @@
+[[pages]]
+path = "box_plots_page.py"
+name = "1 - Box Plot"
+icon = ":roller_coaster:"
+
+[[pages]]
+path = "scatter_map_page.py"
+name = "2 - Scatter Map"
+icon = ":world_map:"
+
+url_path="a_very_long_page_title"

@@ -11,3 +11,5 @@ venv/
 env/
 **/*.duckdb
 **/*.duckdb.wal
+.venv
+.vscode
