@@ -1,8 +1,6 @@
 # Data Exploration with dbt: `data_exploration_assignment2`
 ### The documentation is in-progress
 
-`data_exploration_assignment2` is a QUT final project for the Data Exploration (IFQ719) 
-
 <details>
 <summary>
 
@@ -11,8 +9,14 @@
 </summary>
 
 What this repo _is_:
-- A self-contained playground dbt project (with Streamlit) for exploring an AirBnb dataset.
-
+`data_exploration_assignment2` is a QUT final project for the Data Exploration (IFQ719).
+A self-contained playground dbt project (with Streamlit) for exploring an AirBnb dataset.
+The main tools used in this project are:
+- dbt
+- DuckDB/MotherDuck (when live)
+- Streamlit (data visualisation)
+- GCP (when live)
+![dbt + DuckDB + Streamlit](images/tools_banner.png)
 </details>
 
 <details>
