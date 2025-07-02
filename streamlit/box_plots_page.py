@@ -6,10 +6,25 @@ import plotly.graph_objects as go
 
 duckdb_path = Path(__file__).parent.parent / "database.duckdb"
 num_rows_1 = 0
+colours = {
+    "Bronx": "#9b5de5",
+    "Brooklyn": "#f15bb5",
+    "Manhattan": "#fee440",
+    "Queens": "#00bbf9",
+    "Staten Island": "#00f5d4",
+}
+
+with duckdb.connect(duckdb_path) as conn:
+    neighbourhoods_df = conn.sql("""
+    SELECT distinct neighbourhood_group 
+    FROM database.main.listing_neighbourhood 
+    order by neighbourhood_group
+    """).df()
+
 with st.container(height=600):
     with duckdb.connect(duckdb_path) as conn:
         listings_df = conn.sql("""
-        SELECT listing_id, neighbourhood, neighbourhood_group, price 
+        SELECT listing_id, listing_title, neighbourhood, neighbourhood_group, price 
         FROM database.main.stg_listings 
         order by neighbourhood_group, neighbourhood
         """).df()
@@ -19,24 +34,16 @@ with st.container(height=600):
         st.header("Raw Data")
     with col2:
         st.metric(label="No. of Listings", value=f"{listings_df.shape[0]} rows")
-    st.text("Check if any outliers could be detected")
 
-    neighbourhood_groups = listings_df["neighbourhood_group"].unique()
-    c = ['hsl('+str(h)+',50%'+',50%)' for h in np.linspace(0, 360, len(neighbourhood_groups))]
-
-    print(f"Neighbourhood groups: {neighbourhood_groups}")
     listings_df = listings_df.sort_values(by=['neighbourhood_group', 'neighbourhood', 'price'])
-
     fig = go.Figure()
-    colors = dict(zip(neighbourhood_groups, c))
-
-    for group in neighbourhood_groups:
+    for group in neighbourhoods_df["neighbourhood_group"]:
         group_listings = listings_df[listings_df["neighbourhood_group"] == group]
         fig.add_trace(go.Box(
             x=group_listings["price"],
             y=group_listings["neighbourhood"],
             name=group,
-            marker_color=colors[group]
+            marker_color=colours[group]
         ))
     fig.update_layout(
         xaxis=dict(title=dict(text="Listings price"), zeroline=False),
@@ -45,18 +52,44 @@ with st.container(height=600):
     fig.update_traces(orientation="h")
 
     st.plotly_chart(fig, key="listings", on_select="rerun")
-
+    st.text("Check if any outliers could be detected")
 st.divider()
 
-with st.container():
-    st.subheader("Changes")
-    st.markdown("1. Removed all listings with price below `$10`, since AirBnb minimum price is `$10`")
-    st.markdown("2. Removed filming location listings (3928833, 2953058, 15455305, 17537893, 18051877, 18616208, 24535740, 8736827)")
-    st.markdown("3. Removed gallery space for event (22296097, 23373090, 24535740, 2276383, 34592851, 4777903, 22295960, 23372850)")
-    st.markdown("4. Removed yatch listings (27629043, 33007610)")
-    st.markdown("5. Removed photography location (2952861)")
-    st.markdown("6. Removed Spa and Sauna listing (25018204)")
-    st.markdown("7. Removed animal accommodation (4823682)")
+problematic_listings = listings_df[listings_df["listing_id"].isin([3928833, 2953058, 15455305, 17537893, 18051877, 18616208, 22296097, 24535740, 22296197,
+                          30035166, 33998396, 27629043, 33007610, 2952861, 25018204, 2276383, 23373090, 34592851,
+                          22295960, 23372850, 8736827, 4823682])]
+
+with st.container(border=True):
+    st.subheader("Data Cleaning and Reasons")
+    st.markdown("""
+    The box plot above reveals several potential outliers. A closer investigation shows that these are not typical 
+    residential listings. For example, listing 18051877 in Randall Manor, Staten Island, is a location available 
+    for film and photography shoots, not a residential accommodation. The dataset also includes other non-residential 
+    properties, such as animal accommodations and various event spaces.
+""")
+    st.markdown("""
+    Since the focus of this analysis is on residential stays, these non-relevant listings are to be excluded to avoid 
+    skewing the results.""")
+    st.dataframe(problematic_listings)
+    st.subheader("What to do with these listings?")
+    st.markdown("First, a new boolean column named is_special_property is initialized with a default value of False.")
+    st.markdown("Next, several data cleaning steps are performed. All listings with a price below $10 are excluded, as "
+                "this is below Airbnb's minimum allowable price. We also exclude several categories of listings that "
+                "do not represent typical residential accommodations, as their inclusion would skew the analysis. "
+                "These exclusions include specific listings identified as:")
+    st.markdown("""
+    * Filming locations
+    * Gallery and event spaces
+    * Yachts
+    * Photography studios
+    * Spas and saunas
+    * Animal accommodations
+    """)
+    st.markdown("""
+    Finally, while the dataset contains some very expensive properties, these are considered genuine listings and 
+    are intentionally kept. Removing these valid, high-end listings would introduce bias, leading to an analysis 
+    that does not accurately reflect the full spectrum of the market.
+    """)
 
 st.divider()
 
@@ -76,22 +109,16 @@ with st.container(height=600):
         num_rows_2 = listings_df.shape[0]
         st.metric(label="No. of Listings", value=f"{listings_df.shape[0]} rows", delta=f"{num_rows_2 - num_rows_1} rows")
 
-    neighbourhood_groups = listings_df["neighbourhood_group"].unique()
-    c = ['hsl('+str(h)+',50%'+',50%)' for h in np.linspace(0, 360, len(neighbourhood_groups))]
-
-    print(f"Neighbourhood groups: {neighbourhood_groups}")
+    neighbourhood_groups = np.sort(listings_df["neighbourhood_group"].unique())
     listings_df = listings_df.sort_values(by=['neighbourhood_group', 'neighbourhood', 'price'])
-
     fig = go.Figure()
-    colors = dict(zip(neighbourhood_groups, c))
-
     for group in neighbourhood_groups:
         group_listings = listings_df[listings_df["neighbourhood_group"] == group]
         fig.add_trace(go.Box(
             x=group_listings["price"],
             y=group_listings["neighbourhood"],
             name=group,
-            marker_color=colors[group]
+            marker_color=colours[group]
         ))
     fig.update_layout(
         xaxis=dict(title=dict(text="Listings price"), zeroline=False),
