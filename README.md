@@ -226,3 +226,5 @@ To get up and running with this project:
    streamlit run streamlit/app.py 
    ```
 2. Visit `http://localhost:8501/`
+
+#### Thank you!
