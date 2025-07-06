@@ -4,5 +4,5 @@ data_exploration_assignment2:
   outputs:
     dev:
       type: duckdb
-      path: 'database.duckdb'
+      path: 'streamlit/database.duckdb'
       threads: 24

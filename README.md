@@ -5,29 +5,24 @@
 <summary>
 
 ## What is this repo?
-
-</summary>
-
-What this repo _is_:
 `data_exploration_assignment2` is a QUT final project for the Data Exploration (IFQ719).
 A self-contained playground dbt project (with Streamlit) for exploring an AirBnb dataset.
+</summary>
 The main tools used in this project are:
 - dbt
 - DuckDB/MotherDuck (when live)
 - Streamlit (data visualisation)
-- GCP (when live)
+
 ![dbt + DuckDB + Streamlit](images/tools_banner.png)
 </details>
 
 <details>
 <summary>
-
 ## Running this project
 Prerequisities: Python >= 3.9
-
-### Mach Speed: No explanation needed
-
-> Run `dbt` as fast as possible in a single copy and paste motion!
+Run `dbt` as fast as possible in a single copy and paste motion!
+</summary>
+</details>
 
 <details open>
 <summary>POSIX bash/zsh</summary>
@@ -137,14 +132,12 @@ To get up and running with this project:
     ```shell
     $ dbt --version
     Core:
-      - installed: 1.2.0-a1
-      - latest:    1.1.1    - Ahead of latest version!
+      - installed: 1.0.0.40.5 - Up to date!
+      - latest:    1.0.0.40.5 - Up to date!
 
     Plugins:
-      - bigquery:  1.2.0a1 - Ahead of latest version!
-      - snowflake: 1.2.0a1 - Ahead of latest version!
-      - redshift:  1.2.0a1 - Ahead of latest version!
-      - postgres:  1.2.0a1 - Ahead of latest version!
+      - postgres: 4.0 - Up to date!
+      - duckdb:   1.3.1 - Up to date!
     ```
 
     Then I ran all the steps to create a virtual environment and install the requirements of our DuckDB-based Jaffle Shop repo:
@@ -164,32 +157,12 @@ To get up and running with this project:
     ```shell
     (venv) $ dbt --version
     Core:
-      - installed: 1.2.0-a1
-      - latest:    1.1.1    - Ahead of latest version!
+      - installed: 1.0.0.40.5 - Up to date!
+      - latest:    1.0.0.40.5 - Up to date!
 
     Plugins:
-      - bigquery:  1.2.0a1 - Ahead of latest version!
-      - snowflake: 1.2.0a1 - Ahead of latest version!
-      - redshift:  1.2.0a1 - Ahead of latest version!
-      - postgres:  1.2.0a1 - Ahead of latest version!
-    ```
-
-    ❌ That isn't what we expected -- something isn't right. 😢
-
-    So let's reactivate the virtual environment and try again...
-    ```shell
-    (venv) $ source venv/bin/activate
-    ```
-
-    ```shell
-    (venv) $ dbt --version
-    Core:
-      - installed: 1.1.1
-      - latest:    1.1.1 - Up to date!
-
-    Plugins:
-      - postgres: 1.1.1 - Up to date!
-      - duckdb:   1.1.3 - Up to date!
+      - postgres: 4.0 - Up to date!
+      - duckdb:   1.3.1 - Up to date!
     ```
 
     ✅ This is what we want -- the 2nd reactivation worked. 😎 
@@ -210,7 +183,7 @@ To get up and running with this project:
 
     Launch a DuckDB command-line interface (CLI):
     ```shell
-    duckcli jaffle_shop.duckdb
+    duckdb database.duckdb
     ```
 
     Run a query at the prompt and exit:
@@ -221,7 +194,7 @@ To get up and running with this project:
 
     Alternatively, use a single-liner to perform the query:
     ```shell
-    duckcli jaffle_shop.duckdb -e "select * from customers where customer_id = 42"
+    duckcli database.duckdb -e "select * from customers where customer_id = 42"
     ```
     or:
     ```shell
@@ -245,41 +218,11 @@ To get up and running with this project:
     ```shell
     dbt run
     ```
-
     > **NOTE:** If you decide to run this project in your own data warehouse (outside of this DuckDB demo) and steps fail, it might mean that you need to make small changes to the SQL in the models folder to adjust for the flavor of SQL of your target database. Definitely consider this if you are using a community-contributed adapter.
-
-1. Test the output of the models using the [test](https://docs.getdbt.com/reference/commands/test) command:
-    ```shell
-    dbt test
-    ```
-
-## Browsing the data
-Some options:
-- [DuckDB UI](https://duckdb.org/docs/stable/extensions/ui.html)
-- [duckcli](https://pypi.org/project/duckcli/)
-- [DuckDB CLI](https://duckdb.org/docs/installation/?environment=cli)
-- [How to set up DBeaver SQL IDE for DuckDB](https://duckdb.org/docs/guides/sql_editors/dbeaver)
-
-### Troubleshooting
-
-You may get an error like this, in which case you will need to disconnect from any sessions that are locking the database:
-```
-IO Error: Could not set lock on file "jaffle_shop.duckdb": Resource temporarily unavailable
-```
-
-This is a known issue in DuckDB. If you are using DBeaver, this means shutting down DBeaver (merely disconnecting didn't work for me).
-
-Very worst-case, deleting the database file will get you back in action (BUT you will lose all your data).
-
-
-#### GitHub Codespaces and VSCode Remote Container
-
-If you're using a privacy-forward browser such as Firefox and Brave, or a tracking-cookie-blocking extension like UBlock Origin or Privacy Badger, you may see the below error. You can either change your cookie settings, use a browser like Chrome, or just ignore the error because it doesn't affect the demo
-
-![image](https://user-images.githubusercontent.com/8158673/181361459-294f807c-d990-4366-a4ab-d91cefcbc820.png)
-
----
-For more information on dbt:
-- Read the [introduction to dbt](https://docs.getdbt.com/docs/introduction)
-- Read the [dbt viewpoint](https://docs.getdbt.com/docs/about/viewpoint)
-- Join the [dbt Community](http://community.getdbt.com/)
+   
+## Running **Streamlit**
+1. Start **Streamlit** by running the following command.
+   ```shell
+   streamlit run streamlit/app.py 
+   ```
+2. Visit `http://localhost:8501/`

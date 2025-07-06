@@ -218,3 +218,9 @@ wcwidth==0.2.13
     #   tabulate
 zipp==3.17.0
     # via importlib-metadata
+streamlit
+pandas
+duckdb
+plotly
+geopandas
+scikit-learn

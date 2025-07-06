@@ -1,10 +1,10 @@
-from pathlib import Path
-import streamlit as st
 import duckdb
 import numpy as np
 import plotly.graph_objects as go
 
-duckdb_path = Path(__file__).parent.parent / "database.duckdb"
+import streamlit as st
+from contants import duckdb_path
+
 num_rows_1 = 0
 colours = {
     "Bronx": "#9b5de5",

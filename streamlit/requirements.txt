@@ -1,6 +1,0 @@
-streamlit
-pandas
-duckdb
-plotly
-geopandas
-scikit-learn

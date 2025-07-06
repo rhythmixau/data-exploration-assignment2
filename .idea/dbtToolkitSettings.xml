@@ -28,6 +28,11 @@
             <Object />
           </value>
         </entry>
+        <entry key="dispatch">
+          <value>
+            <Object />
+          </value>
+        </entry>
         <entry key="macro-paths">
           <value>
             <Object />
@@ -44,6 +49,11 @@
           </value>
         </entry>
         <entry key="name">
+          <value>
+            <Object />
+          </value>
+        </entry>
+        <entry key="on-run-start">
           <value>
             <Object />
           </value>
@@ -85,7 +95,7 @@
         </entry>
       </map>
     </option>
-    <option name="dbtProjectName" value="jaffle_shop" />
+    <option name="dbtProjectName" value="data_exploration_assignment2" />
     <option name="dbtProjectsDir" value="$PROJECT_DIR$" />
     <option name="dbtSeedPaths">
       <list>

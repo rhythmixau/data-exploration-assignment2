@@ -1,12 +1,11 @@
-import streamlit as st
-import plotly.express as px
 import duckdb
-from pathlib import Path
 import pandas as pd
-import numpy as np
+import plotly.express as px
 from sklearn.preprocessing import MinMaxScaler
 
-duckdb_path = Path(__file__).parent.parent / "database.duckdb"
+import streamlit as st
+from contants import duckdb_path
+
 with duckdb.connect(duckdb_path) as conn:
     neighbourhood_groups = conn.sql(
         "SELECT distinct neighbourhood_group FROM database.main.neighbourhood order by neighbourhood_group").df()

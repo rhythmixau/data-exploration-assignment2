@@ -7,7 +7,6 @@ import plotly.graph_objects as go
 from contants import duckdb_path, geojson_path
 
 with duckdb.connect(duckdb_path) as conn:
-    print(f"Geo file: {geojson_path}")
     geo_df = geopandas.read_file(geojson_path)
 
     listings_summary_df = conn.sql("SELECT * FROM database.main.listing_neighbourhood").df()

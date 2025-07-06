@@ -1,0 +1,20 @@
+# Exclude the virtual environment
+.venv/
+venv/
+*/.venv/
+*/venv/
+
+# Exclude Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude other common files
+.git/
+.gitignore
+.idea/
+.vscode/
+local_settings.py
+*.db
+*.sqlite3
